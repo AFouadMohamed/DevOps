@@ -1,5 +1,5 @@
   # VagrantProject
-Vagrant Multi-VM Setup for Web Application This Vagrantfile sets up a multi-VM environment for a web application with different components such as a database server, memcached server, RabbitMQ server, application server (Tomcat), and a web server (Nginx). Each VM is provisioned with the necessary software using shell scripts
+Vagrant Multi-VM Setup for Web Application This Vagrantfile sets up a multi-VM environment for a web application with different components such as a database server, Memcached server, RabbitMQ server, application server (Tomcat), and a web server (Nginx). Each VM is provisioned with the necessary software using shell scripts
 
 
 ![image](https://github.com/user-attachments/assets/a0122911-9939-4531-964a-defa2fc9f2c5)
@@ -26,8 +26,8 @@ Services
 
 # Project Steps
 
-# 1:Create shell script (Backend vms ) 
- Create a ShellScript file for Database we will call mariadb.sh  We will write the following in the file 
+# 1:Create shell script (Backend VMs) 
+ Create a ShellScript file for the Database we will call mariadb.sh  We will write the following in the file 
 
 ![image](https://github.com/user-attachments/assets/069d7a26-b769-438d-a0bb-0daa7c5f0aa0)
 
@@ -36,17 +36,17 @@ Services
 ![image](https://github.com/user-attachments/assets/9106d02b-b5c5-46ac-a797-a3aabd6c6391)
 
 
-#2 Create a ShellScript file for Memcached we will call memcashed.sh  We will write the following in the file 
+#2 Create a ShellScript file for Memcached we will call Memcached.sh  We will write the following in the file 
 
   ![image](https://github.com/user-attachments/assets/3c3e5102-c23b-4334-b893-befa45773ace)
 
 
-#3 Create a ShellScript file for RabbitMQ  we will call rabbitmq.sh  We will write the following in the file 
+#3 Create a ShellScript file for RabbitMQ  that we will call RabbitMQ.sh  We will write the following in the file 
 
 ![image](https://github.com/user-attachments/assets/14c2deae-c910-453c-a3b2-a8fa088a9233)
 
 
-#4 Create a ShellScript file for APP in clude ( tomcat , nginx )
+#4 Create a ShellScript file for APP  include ( tomcat, nginx )
 
 # 1: TOMCAT
 
@@ -65,7 +65,7 @@ Services
 ![image](https://github.com/user-attachments/assets/45b333b8-8934-44c8-907e-bdd324c177a4)
 
 # After writing the scripts
- we will write a vagrantfile, which should be like this, and we will put in it all the VM that we will create, and we will also make a private network and connect the VM to each other and introduce them 
+ we will write a vagrantfile, which should be like this, and we will put in it all the VMs that we will create, we will also make a private network to connect the VMs and introduce them 
 
  ![image](https://github.com/user-attachments/assets/31f873bf-9913-43f4-b71d-a03b8ede2cb9)
 
@@ -77,7 +77,7 @@ Services
  # After all these steps, type inside the cmd in its own path 
 
 
- And in the end this is the picture of the project 
+ And in the end, this is the picture of the project 
 
 ![image](https://github.com/user-attachments/assets/d0e29e05-a444-4c23-9757-c3f63a38e0d8)
 
@@ -87,8 +87,8 @@ Services
 1: If you use Vagrant on VM, this problem will appear  
 ![image](https://github.com/user-attachments/assets/78fdbc3a-4785-41a3-8fa9-4ea4ab02f786)
 
-# The solution is to use vagrant on physical machine and not VM 
-# What we learn from vagrant ?
+# The solution is to use Vagrant on the physical machine and not the VM 
+# What do we learn from vagrants?
 1. Improve your technical skills:
 Working with Vagrant will enhance your skills in managing virtual environments and automation. You will learn how to set up complex development environments, which can be invaluable in your field.
 2. Save time and effort:
@@ -115,10 +115,12 @@ In short, using Vagrant can make your daily work more efficient, reduce errors, 
 # 1: VPC
 ![image](https://github.com/user-attachments/assets/a4e8fff2-68ba-441c-8554-ef98e3769d84)
 
-# 1: Security Group 
+# 2: Security Group 
 ![image](https://github.com/user-attachments/assets/f6029778-8059-4811-a9f0-ebf56a8374d4)
 
-# If need information about this project created by userdate (Script) in AWS 
+
+
+#  Need more  information about this project created by user date (Script) in AWS can review the link 
 
 https://github.com/AFouadMohamed/DevOps/tree/main/project/project-2
 
