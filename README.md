@@ -110,6 +110,20 @@ If you work remotely or on multiple devices, you can easily move your environmen
 In short, using Vagrant can make your daily work more efficient, reduce errors, and increase your productivity. It also provides you with an opportunity to learn new technologies and improve your environment management skills.
 
 
+# In Folder Project have another project create the same project in AWS by automation script 
+
+# 1: VPC
+![image](https://github.com/user-attachments/assets/a4e8fff2-68ba-441c-8554-ef98e3769d84)
+
+# 1: Security Group 
+![image](https://github.com/user-attachments/assets/f6029778-8059-4811-a9f0-ebf56a8374d4)
+
+# If need information about this project created by userdate (Script) in AWS 
+
+https://github.com/AFouadMohamed/DevOps/tree/main/project/project-2
+
+
+
 
 ![thx4w-8 (1)](https://github.com/user-attachments/assets/469311fb-d559-44c1-a2a3-3563a7f7dfca)
 
