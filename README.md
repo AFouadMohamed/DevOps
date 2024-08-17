@@ -1,4 +1,4 @@
-  # project:1
+  # Project:1
       
   # VagrantProject
 Vagrant Multi-VM Setup for Web Application This Vagrantfile sets up a multi-VM environment for a web application with different components such as a database server, Memcached server, RabbitMQ server, application server (Tomcat), and a web server (Nginx). Each VM is provisioned with the necessary software using shell scripts
@@ -112,7 +112,7 @@ If you work remotely or on multiple devices, you can easily move your environmen
 In short, using Vagrant can make your daily work more efficient, reduce errors, and increase your productivity. It also provides you with an opportunity to learn new technologies and improve your environment management skills.
 
 
-  # project:2
+  # Project:2
                                                                                                               
 
 # Folder Project in my repository  has another project created  in AWS by automation script 
