@@ -47,12 +47,12 @@ sudo systemctl enable tomcat
 ## Download Project ##
 git clone -b main https://github.com/hkhcoder/vprofile-project.git
 cd vprofile-project
-mvn install
-systemctl stop tomcat
- rm -rf /usr/local/tomcat/webapps/ROOT*
- cp target/vprofile-v2.war /usr/local/tomcat/webapps/ROOT.war
- systemctl start tomcat
- chown tomcat.tomcat /usr/local/tomcat/webapps -R
- systemctl restart tomcat
+sudo mvn install
+sudo systemctl stop tomcat
+ sudo rm -rf /usr/local/tomcat/webapps/ROOT*
+ sudo cp target/vprofile-v2.war /usr/local/tomcat/webapps/ROOT.war
+ sudo systemctl start tomcat
+ sudo chown tomcat.tomcat /usr/local/tomcat/webapps -R
+sudo systemctl restart tomcat
 
 
